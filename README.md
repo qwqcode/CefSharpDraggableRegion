@@ -1,5 +1,7 @@
 # CefSharpDraggableRegion
 
+![](https://user-images.githubusercontent.com/22412567/50545365-921e0700-0c4c-11e9-9403-132b70b1da44.gif)
+
 You can specify `-webkit-app-region: drag` in CSS to tell **CefSharp** which regions are draggable (like the OS's standard titlebar), and apps can also use `-webkit-app-region: no-drag` to exclude the non-draggable area from the draggable region. Note that only rectangular shapes are currently supported.
 
 To make the whole window draggable, you can add `-webkit-app-region: drag` as `body`'s style:
