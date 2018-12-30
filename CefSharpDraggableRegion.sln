@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CefSharpDraggableRegion", "CefTest\CefSharpDraggableRegion.csproj", "{0A2711D3-CC11-44BC-BC0F-EB0228257DA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A2711D3-CC11-44BC-BC0F-EB0228257DA4}.Debug|x64.ActiveCfg = Debug|x86
+		{0A2711D3-CC11-44BC-BC0F-EB0228257DA4}.Debug|x86.ActiveCfg = Debug|x86
+		{0A2711D3-CC11-44BC-BC0F-EB0228257DA4}.Debug|x86.Build.0 = Debug|x86
+		{0A2711D3-CC11-44BC-BC0F-EB0228257DA4}.Release|x64.ActiveCfg = Release|x86
+		{0A2711D3-CC11-44BC-BC0F-EB0228257DA4}.Release|x86.ActiveCfg = Release|x86
+		{0A2711D3-CC11-44BC-BC0F-EB0228257DA4}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27DA5D7F-1E86-44C6-A5F2-79299F9AA988}
+	EndGlobalSection
+EndGlobal

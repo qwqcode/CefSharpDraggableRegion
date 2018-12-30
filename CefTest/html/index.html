@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            margin: 0 auto;
+            height: 200px;
+            width: 90vw;
+            background: #ff0000;
+            -webkit-user-select: none;
+            -webkit-app-region: drag;
+            -moz-user-select: none;
+            user-select: none;
+            margin-top: 20px;
+        }
+
+        .btns {
+            -webkit-app-region: no-drag;
+            position: absolute;
+            left: 56px;
+            top: 48px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav"><div class="btns"><button onclick="alert('Close Action')">x</button></div></div>
+</body>
+</html>
